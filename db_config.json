@@ -1,32 +1,29 @@
 {
   "databases": [
     {
-      "range": { "min": 1, "max": 1000 },
+      "range": { "min": 1, "max": 100000000 },
       "config": {
-        "host": "server_a",
-        "port": 5432,
-        "user": "user_a",
-        "password": "password_a",
-        "database": "db_a"
+        "host": "192.168.65.254",
+        "port": 5433,
+        "user": "write",
+        "database": "mt5devreal01"
       }
     },
     {
-      "range": { "min": 1001, "max": 2000 },
+      "range": { "min": 100000000, "max": 200000000 },
       "config": {
         "host": "server_b",
         "port": 5432,
         "user": "user_b",
-        "password": "password_b",
         "database": "db_b"
       }
     },
     {
-      "range": { "min": 2001, "max": 3000 },
+      "range": { "min": 200000000, "max": 300000000 },
       "config": {
         "host": "server_b",
         "port": 5432,
         "user": "user_b",
-        "password": "password_b",
         "database": "db_b"
       }
     }

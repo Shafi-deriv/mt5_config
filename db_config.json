@@ -1,0 +1,34 @@
+{
+  "databases": [
+    {
+      "range": { "min": 1, "max": 1000 },
+      "config": {
+        "host": "server_a",
+        "port": 5432,
+        "user": "user_a",
+        "password": "password_a",
+        "database": "db_a"
+      }
+    },
+    {
+      "range": { "min": 1001, "max": 2000 },
+      "config": {
+        "host": "server_b",
+        "port": 5432,
+        "user": "user_b",
+        "password": "password_b",
+        "database": "db_b"
+      }
+    },
+    {
+      "range": { "min": 2001, "max": 3000 },
+      "config": {
+        "host": "server_b",
+        "port": 5432,
+        "user": "user_b",
+        "password": "password_b",
+        "database": "db_b"
+      }
+    }
+  ]
+}
